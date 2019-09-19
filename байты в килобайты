@@ -1,0 +1,12 @@
+#include <math.h>
+#include <iostream>
+using namespace std;
+int main()
+{   
+	float a, b;
+	cout << "Vvedite kolichestvo bait ";
+	cin >> a;
+	b = trunc(a / 8);
+	cout << b;
+	return 0;
+}
